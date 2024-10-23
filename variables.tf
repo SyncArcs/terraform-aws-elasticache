@@ -451,4 +451,3 @@ variable "num_cache_clusters" {
     error_message = "num_cache_clusters must be at least 2 if automatic_failover_enabled is true."
   }
 }
-
