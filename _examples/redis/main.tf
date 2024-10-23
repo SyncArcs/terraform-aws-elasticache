@@ -11,7 +11,7 @@ module "vpc" {
 }
 
 module "subnets" {
-  source             ="git::https://github.com/SyncArcs/terraform-aws-subnet.git?ref=v1.0.0"
+  source             = "git::https://github.com/SyncArcs/terraform-aws-subnet.git?ref=v1.0.0"
   name               = "redis"
   environment        = "test"
   label_order        = ["environment", "name"]
